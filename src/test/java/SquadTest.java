@@ -15,4 +15,9 @@ public class SquadTest {
         Squad testSquad = new Squad("megaMind", 10, "Guru");
         assertEquals(5, testSquad.getSize());
     }
+    @Test
+    public void getCause_squadInstantiatesWithCause_String() {
+        Squad testSquad = new Squad("megaMind", 10, "Guru");
+        assertEquals("megaMind", testSquad.getCause());
+    }
 }
