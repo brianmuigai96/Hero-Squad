@@ -1,3 +1,6 @@
+import org.junit.Test;
+import static org.junit.Assert.
+
 public class SquadTest {
 
     @Test
@@ -26,5 +29,11 @@ public class SquadTest {
         Squad secondSquad = new Squad("rome", 4, "high");
         assertEquals(true, Squad.all().contains(firstSquad));
         assertEquals(true, Squad.all().contains(secondSquad));
+    }
+    @Test
+    public void clear_emptiesAllSquadsFromList_0() {
+        Squad testSquad = new Squad("megaMind", 10, "Guru");
+        Squad.clear();
+        assertEquals(Squad.all().size(), 0);
     }
 }
