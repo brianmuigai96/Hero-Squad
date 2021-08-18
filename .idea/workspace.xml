@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b70748d4-cec8-4ed1-8a5a-27014beff67c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squadHeroesSuccess.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/squadHeroesSuccess.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squadHeroesForm.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/squadHeroesForm.vtl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
