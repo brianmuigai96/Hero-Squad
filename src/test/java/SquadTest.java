@@ -10,5 +10,9 @@ public class SquadTest {
         Squad testSquad = new Squad("megaMindClub", 10, "Guru");
         assertEquals("nerdsClub", testSquad.getName());
     }
-
+    @Test
+    public void getSize_squadInstantiatesWithSize_int() {
+        Squad testSquad = new Squad("megaMind", 10, "Guru");
+        assertEquals(5, testSquad.getSize());
+    }
 }
