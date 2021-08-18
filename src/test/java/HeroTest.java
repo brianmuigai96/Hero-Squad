@@ -10,7 +10,13 @@ public class HeroTest {
      @Test
     public void getName_forHeroesName_String() {
         Hero myHero = new Hero("Rashid",65,"cut","cut");
-        String expected = "Vick";
+        String expected = "Rashid";
         assertEquals(expected, myHero.getName());
+    }
+      @Test
+    public void getAge_forHeroesName_String() {
+        Hero myHero = new Hero("Rashid",65,"cut","cut");
+        int expected = 65;
+        assertEquals(expected, myHero.getAge());
     }
 }
