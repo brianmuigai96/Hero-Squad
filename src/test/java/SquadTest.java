@@ -67,9 +67,7 @@ public class SquadTest {
         Squad testSquad = new Squad("megaMind", 10, "Guru");
         Hero testHero = new Hero("Flash", 20, "Wise", "slow");
         testSquad.addHero(testHero);
-        assertTrue(testSquad.heroAlreadyExists(testHero));
-
-
+        assertTrue(testSquad.heroAlreadyExists(testHero))
     }
 
 
