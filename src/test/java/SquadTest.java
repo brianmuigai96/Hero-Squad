@@ -42,4 +42,12 @@ public class SquadTest {
         Squad testSquad = new Squad("megaMind", 10, "Guru");
         assertEquals(1, testSquad.getId());
     }
+    @Test
+    public void find_returnsSquadWithSameId_secondSquad() {
+        Squad.clear();
+        Squad firstSquad = new Squad("megaMind", 10, "Guru");
+        Squad secondSquad = new Squad("rome", 4, "high");
+        assertEquals(Squad.find(secondSquad.getId()), secondSquad);
+    }
+
 }
