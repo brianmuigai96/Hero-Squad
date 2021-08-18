@@ -36,4 +36,10 @@ public class SquadTest {
         Squad.clear();
         assertEquals(Squad.all().size(), 0);
     }
+    @Test
+    public void getId_squadsInstantiatesWithAnId_1() {
+        Squad.clear();
+        Squad testSquad = new Squad("megaMind", 10, "Guru");
+        assertEquals(1, testSquad.getId());
+    }
 }
