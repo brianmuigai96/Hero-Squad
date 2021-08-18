@@ -49,5 +49,11 @@ public class SquadTest {
         Squad secondSquad = new Squad("rome", 4, "high");
         assertEquals(Squad.find(secondSquad.getId()), secondSquad);
     }
+    @Test
+    public void getHeroes_initiallyReturnsEmptyList_ArrayList() {
+        Squad.clear();
+        Squad testSquad = new Squad("megaMind", 10, "Guru");
+        assertEquals(0, testSquad.getHeroes().size());
+    }
 
 }
