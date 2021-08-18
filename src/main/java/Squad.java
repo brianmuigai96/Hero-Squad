@@ -1,13 +1,10 @@
-import org.jetbrains.annotations.Contract;
-
-import java.util.ArrayList;
 import java.util.List;
-
-public class squad {
+import java.util.ArrayList;
+public class Squad {
     private String mName;
     private int mSize;
     private String mCause;
-    private static List<squad> instances = new ArrayList<squad>();
+    private static List<Squad> instances = new ArrayList<Squad>();
     private int mId;
     private List<Hero> mHeroes;
 
@@ -32,25 +29,30 @@ public class squad {
         return mCause;
     }
 
-    public static List<squad> all() {
+    public static List<Squad> all() {
         return instances;
     }
-    public static void clear(){
+
+    public static void clear() {
         instances.clear();
     }
-    public int getId(){
-        return mId
+
+    public int getId() {
+        return mId;
     }
-    @Contract(pure = true)
-    public static squad find(int id){
+
+    public static Squad find(int id) {
         return instances.get(id - 1);
     }
-    public List<Hero>getHeroes(){
+
+    public List<Hero> getHeroes() {
         return mHeroes;
     }
+
     public void addHero(Hero hero) {
         mHeroes.add(hero);
     }
+
     public static boolean heroAlreadyExists(Hero newHero) {
         boolean exists = false;
         for (Squad squad : instances) {
@@ -62,6 +64,4 @@ public class squad {
         }
         return exists;
     }
-
-
 }
