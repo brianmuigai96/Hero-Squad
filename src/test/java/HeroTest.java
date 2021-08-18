@@ -19,4 +19,10 @@ public class HeroTest {
         int expected = 65;
         assertEquals(expected, myHero.getAge());
     }
+     @Test
+    public void getWeakness_forHeroesName_String() {
+        Hero myHero = new Hero("Rashid",65,"cut","cut");
+        String expected = "cut";
+        assertEquals(expected, myHero.getWeakness());
+    }
 }
