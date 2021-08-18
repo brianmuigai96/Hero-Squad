@@ -55,5 +55,13 @@ public class SquadTest {
         Squad testSquad = new Squad("megaMind", 10, "Guru");
         assertEquals(0, testSquad.getHeroes().size());
     }
+     @Test
+    public void addHero_addsHeroToList_true() {
+        Squad testSquad = new Squad("megaMind", 10, "Guru");
+        Hero testHero = new Hero("Flash", 20, "Wise", "slow");
+        testSquad.addHero(testHero);
+        assertTrue(testSquad.getHeroes().contains(testHero));
+    }
+
 
 }
