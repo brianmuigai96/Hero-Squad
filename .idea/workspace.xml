@@ -1,32 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b70748d4-cec8-4ed1-8a5a-27014beff67c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Public/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Public/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/avatar/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/avatar/Squad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/avatar/HeroTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/avatar/SquadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/squad.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/HeroTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/HeroTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/SquadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/SquadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/Squad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/templates/hero.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/templates/heroForm.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/templates/heroes.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/templates/index.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/templates/layout.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/templates/squad.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/templates/squadForm.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/templates/squadHeroesForm.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/templates/squadHeroesSuccess.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/templates/squadSuccess.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/templates/squads.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/templates/success.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/HeroTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/SquadTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/hero.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/heroForm.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/heroes.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/index.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/layout.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/squad.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/squadForm.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/squadHeroesForm.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/squadHeroesSuccess.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/squadSuccess.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/squads.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/success.vtl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/squad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HeroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HeroTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SquadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SquadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Squad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Public/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Public/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hero.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/heroForm.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/heroes.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squad.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squadForm.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squadHeroesForm.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squadHeroesSuccess.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squadSuccess.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squads.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/success.vtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HeroTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SquadTest.java" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,29 +104,23 @@
   </component>
   <component name="ProjectId" id="1wu21IEowI0v5r1YqJaFh0oUen1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -114,7 +147,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="SquadTest.addHero_addsHeroToList_true" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -134,7 +169,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="SquadTest.getCause_squadInstantiatesWithCause_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -154,7 +191,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="SquadTest.squad_instantiatesCorrectly_true" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -174,7 +213,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -187,6 +228,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -205,12 +247,11 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
