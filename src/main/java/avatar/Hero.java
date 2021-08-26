@@ -68,6 +68,11 @@ public class Hero {
 
         }
     }
-    public void updateSquad(String newsquad){}
+    public void updateSquad(String newSquad){this.squadUnion = newSquad;}
+
+    public void updateName(String newName){this.name =newName;}
+    public void updateAge(int newAge){this.age = newAge;}
+    public void updatePower(String newPower){this.power =newPower;}
+    public void updateWeakness(String newpower){this.power = newpower;}
 
 }
