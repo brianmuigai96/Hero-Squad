@@ -89,9 +89,9 @@ public class Hero {
         if (heroToDelete.getSquadUnion().equals("")) {
             Squad currentSquad = null;
             String currentSquadName = heroToDelete.getSquadUnion();
-            for (Squad Squad : Squad.getAllSquads()) {
+            for (Squad squad : Squad.getAllSquads()) {
                 if (Squad.getName().equalsIgnoreCase(currentSquadName)){
-                    currentSquad =Squad;
+                    currentSquad =squad;
                     break;
                 }
             }
