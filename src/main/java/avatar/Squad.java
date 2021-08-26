@@ -19,7 +19,7 @@ public class Squad {
 
         if (isRegisteredHero){
             hero.setsquadunion(squadName);
-            heroMembers.add(Hero);
+            heroMembers.add(hero);
             squadList.add(hero);
             this.squadId =squadList.size();
         }else{
@@ -31,5 +31,13 @@ public class Squad {
     }
     public int getSquadId(){
         return squadId;
+    }
+    public void addMembers (Hero hero){
+        if(heroMembers.size() >= 3){
+            isSquadFull = true;
+        }else{
+            heroMembers.add(hero);
+        }
+
     }
 }
