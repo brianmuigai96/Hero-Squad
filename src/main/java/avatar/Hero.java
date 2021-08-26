@@ -71,8 +71,26 @@ public class Hero {
     public void updateSquad(String newSquad){this.squadUnion = newSquad;}
 
     public void updateName(String newName){this.name =newName;}
-    public void updateAge(int newAge){this.age = newAge;}
+    public void updateAge(int newAge){this.age = newAge; }
     public void updatePower(String newPower){this.power =newPower;}
-    public void updateWeakness(String newpower){this.power = newpower;}
+    public void updateWeakness(String newpower){this.power =  newpower;}
+
+    public static void deleteHero(int searchID) {
+        Hero heroToDelete = findHero(searchID);
+        if (heroToDelete.getSquadUnion().equals("")) {
+            Squad currentSquad = null;
+            String currentSquadName = heroToDelete.getSquadUnion();
+            for (Squad Squad : Squad.getAllSquads()) {
+                if (Squad.getName().equalsIgnoreCase(currentSquadName)){
+                    currentSquad =Squad;
+                    break;
+                }
+            }
+            assert currentSquad !=null;
+            currentSquad.removeMember(heroToDelete);
+        }
+        heroRegistry.remove(searchID -1);
+    }
+    public static void clearHeroRegistry(){heroRegistry.clear();}
 
 }
