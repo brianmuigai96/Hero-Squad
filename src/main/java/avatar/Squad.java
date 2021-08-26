@@ -40,4 +40,28 @@ public class Squad {
         }
 
     }
+
+    public boolean getSquadFull(){
+        return isSquadFull;
+    }
+    public List<Hero> getHeroMembers(){
+        return heroMembers;
+    }
+    public String getCause(){
+        return  cause;
+    }
+    public void changeHeroSquad(Hero hero, Squad newSquad){
+        if (heroMembers.size() >=3){
+            isSquadFull = true;
+        }else{
+            Squad currentSquad =null;
+            for (Squad squad: squadList){
+                if(hero.getSquadUnion().equalsIgnoreCase(squad.squadName)){
+                    currentSquad =squad;
+                    break;
+                }
+            }
+        }
+    }
+
 }
