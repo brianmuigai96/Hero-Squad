@@ -14,10 +14,19 @@ public class Hero {
     private static boolean duplicate = false;
 
     public Hero(String name, int age, String power, String weakness) {
-        this.name = name;
+        this.name = name.trim();
         this.age = age;
-        this.power = power;
-        this.weakness = weakness;
+        this.power = power.trim();
+        this.weakness = weakness.trim();
+        findDuplicateHero(this);
+        if (duplicate){
+            System.out.println("Duplicate Hero Detected");
+        } else{
+            heroRegistry.add(this);
+            this.heroID = heroRegistry.size();
+            this.squadUnion = "";
+        }
+
     }
 
     public void setPower(String power) {
