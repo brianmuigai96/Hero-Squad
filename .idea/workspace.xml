@@ -5,66 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b70748d4-cec8-4ed1-8a5a-27014beff67c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/avatar/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/avatar/Squad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/avatar/HeroTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/avatar/SquadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/Hero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/Squad.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/templates/hero.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/templates/heroForm.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/templates/heroes.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/templates/index.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/templates/layout.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/templates/squad.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/templates/squadForm.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/templates/squadHeroesForm.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/templates/squadHeroesSuccess.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/templates/squadSuccess.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/templates/squads.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/templates/success.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/HeroTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/SquadTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/hero.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/heroForm.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/heroes.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/index.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/layout.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/squad.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/squadForm.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/squadHeroesForm.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/squadHeroesSuccess.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/squadSuccess.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/squads.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/success.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Squad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Public/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Public/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hero.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/heroForm.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/heroes.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squad.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squadForm.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squadHeroesForm.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squadHeroesSuccess.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squadSuccess.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squads.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/success.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HeroTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SquadTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/avatar/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/avatar/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/avatar/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/avatar/Hero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

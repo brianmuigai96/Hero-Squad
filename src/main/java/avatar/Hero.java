@@ -20,35 +20,54 @@ public class Hero {
         this.weakness = weakness;
     }
 
-    public String getName() {
-        return name;
+    public void setPower(String power) {
+        this.power = power;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setWeakness(String weakness) {
+        this.weakness = weakness;
+    }
+
+    public void setSquadUnion(String squadUnion){this.squadUnion = squadUnion;}
+    public String getSquadUnion(){return  squadUnion;}
+
+    public String getName() {
+        return name;
     }
 
     public int getAge() {
         return age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
-
     public String getPower() {
         return power;
-    }
-
-    public void setPower(String power) {
-        this.power = power;
     }
 
     public String getWeakness() {
         return weakness;
     }
-
-    public void setWeakness(String weakness) {
-        this.weakness = weakness;
+    public int getHeroID(){
+        return heroID;
     }
+
+    public static List<Hero> getHeroRegistry() {
+        return heroRegistry;
+    }
+    public static Hero findHero(int searchID){ return heroRegistry.get(searchID -1 );}
+    private static void findDuplicateHero(Hero newInsertion){
+        for (Hero hero:heroRegistry){
+            if (newInsertion.name.equalsIgnoreCase(hero.name)&&
+                newInsertion.power.equalsIgnoreCase(hero.power)&&
+                    newInsertion.weakness.equalsIgnoreCase(hero.weakness)){
+                duplicate = true;
+                break;
+            }else if (newInsertion.name.equalsIgnoreCase(hero.name)){
+                duplicate = true;
+                break;
+            }
+
+        }
+    }
+    public void updateSquad(String newsquad){}
+
 }
