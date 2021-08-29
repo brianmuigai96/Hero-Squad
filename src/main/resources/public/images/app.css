@@ -39,3 +39,25 @@ body{
 .jumbotron h1 {
     font-size: 150px;
 }
+
+#session-form {
+    margin-bottom: 20px;
+}
+
+#session-form form{
+    margin: 15px auto 15px auto;
+}
+
+#session-form button {
+    display: block;
+    margin: 10px auto;
+}
+
+#returning-agent h2 {
+    margin-bottom: 20px;
+}
+
+#newsFeed {
+    margin: 20px auto;
+}
+
