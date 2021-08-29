@@ -61,3 +61,7 @@ body{
     margin: 20px auto;
 }
 
+.heroSquadCard {
+    width: 20rem;
+    margin: auto;
+}
