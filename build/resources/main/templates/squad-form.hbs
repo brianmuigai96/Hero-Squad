@@ -18,6 +18,7 @@
             <label for="cause">The Reason for having the Team (Squad)</label>
             <textarea class="form-control" name="cause" id="cause" rows="3" required></textarea>
         </div>
+    {{#if squadlessHeroes}}
     <div class="form-group">
     {{#each squadlessHeroes}}
             <option>{{name}}</option>

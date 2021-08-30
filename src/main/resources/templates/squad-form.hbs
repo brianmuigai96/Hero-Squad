@@ -1,0 +1,39 @@
+{{#partial "navbar"}}
+    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+    <li class="nav-item"><a class="nav-link" href="/heroes/new">Recruit a New Hero</a></li>
+    <li class="nav-item active"><a class="nav-link" href="/squads/new">Create a New Squad</a></li>
+    <li class="nav-item"><a class="nav-link" href="/heroes">View Heroes and Squads</a></li>
+{{/partial}}
+
+
+{{#partial "content"}}
+    <h2 class="text-center">Make a Team (Squad)</h2>
+    <div id="newSquadForm">
+    <form action="/squads/new" method="post">
+        <div class="form-group">
+            <label for="name">Name of Team (Squad)</label>
+            <input type="text" id="name" name="name" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="cause">The Reason for having the Team (Squad)</label>
+            <textarea class="form-control" name="cause" id="cause" rows="3" required></textarea>
+        </div>
+    {{#if squadlessHeroes}}
+    <div class="form-group">
+    {{#each squadlessHeroes}}
+            <option>{{name}}</option>
+    {{/each}}
+{{else}}
+        <option>No squad-less heroes available</option>
+{{/if}}
+
+    </select>
+</div>
+{{#if squadlessHeroes}}
+        <button class="btn btn-outline-secondary" type="submit">Save</button>
+{{/if}}
+</form>
+</div>
+{{/partial}}
+
+{{> layout.hbs}}
